@@ -1,17 +1,21 @@
 
 body{
     background-color: rgb(250, 229, 233);
+
 }
+
 
 
 .container{
-    display: flex;
-    gap: 30px;
-    width: 60%;
-    margin: 80px auto;
-   
-    background-color: rgb(250, 229, 233);
+     display: flex;
+     gap: 30px;
+     width: 60%;
+     margin: 80px auto;
+     background-color: rgb(250, 229, 233);
+     font-family: Arial, Helvetica, sans-serif;
+    
 }
+
 
 .image{
     border-right: solid 1px rgb(248, 119, 248);
@@ -19,15 +23,19 @@ body{
 
 }
 
+
 form{
     margin-left: 30px;
     margin-right: 50px;
-  
+   
+
 }
 
+
 .Names{
-    display: flex;
-    gap: 20px;
+     display: flex;
+     gap: 40px;
+
 }
 
 
@@ -35,17 +43,19 @@ form{
     border-radius: 4px;
     padding: 6px 4px;
     border: solid 1px rgb(192, 187, 187);
-   
+
   }
   
+
   #LastName{
     border-radius: 4px;
     padding: 6px 4px;
     border: none;
     border: solid 1px rgb(192, 187, 187);
 
-   
   }
+
+
 #email{
   width: 95%;
   border-radius: 4px;
@@ -55,6 +65,8 @@ form{
   border: solid 1px rgb(192, 187, 187);
  
 }
+
+
 #password{
     width: 95%;
     border-radius: 4px;
@@ -62,6 +74,8 @@ form{
     border: none;
     border: solid 1px rgb(192, 187, 187);
 }
+
+
   #button{
      width: 98%;
      padding: 10px 8px;
@@ -70,16 +84,20 @@ form{
      border: 0px;
      border-radius: 2px;
   }
+
+
   .input-wrapper {
     position: relative;
     display: inline-block;
     width: 100%;
 }
 
+
 .input-wrapper input {
     padding-right: 30px;
     
 }
+
 
 .toggle-password {
     position: absolute;
@@ -90,15 +108,20 @@ form{
     background: none;
     cursor: pointer;
 }
+
+
   #SignIn{
     color: rgb(199, 27, 199);
   }
+
 
    #h1{
     color: rgb(182, 81, 182);
     font-size: 60px;
     padding-right: 40px;
    }
+
+
    #Account{
     text-align: center;
       
@@ -110,7 +133,7 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    color: grey;
   }
   
   h3:after, h3:before {
@@ -120,6 +143,7 @@ form{
     background: rgb(207, 205, 205);
     margin: 0 10px;
   }
+
   .cons{
     display: flex;
     justify-content: center;
@@ -135,10 +159,9 @@ form{
      background-color:  white;
      padding: 8px 30px; 
      border-radius: 10px;
-    
-   
 
 }
+
 #facebook{
     justify-content: center;
     width: 25px;  
@@ -154,8 +177,7 @@ form{
        height: 25px;
        background-color: white;
        padding: 8px 30px;
-       border-radius: 10px;
-       
+       border-radius: 10px;     
 
 }
 
